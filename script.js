@@ -44,7 +44,7 @@ var removecolor="";
 function showquestion(){
     var que=document.querySelector('.question');
     que.innerHTML=questions[curque].question;
-    const buttons = document.querySelectorAll('#btndiv .btn');
+    const buttons = document.querySelectorAll('#btndiv .options');
     buttons.forEach((button, index) => {
         button.innerHTML =questions[curque].answers[index].text;
     });
