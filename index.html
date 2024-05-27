@@ -23,12 +23,13 @@
             width: 100%;
             margin: 5px 0px;
             border: 1px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            color:black;
+            background-color: white;
+
         }
-        .options:hover{
-            background-color: black;
-            color: white;
-           
-        }
+        
         .next-btn{
             background-color: #001e4d;
             color: #fff;
@@ -51,16 +52,16 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container mx-5">
          <h1 >Simple Quiz</h1>
          <hr>
          <div class="area">
          <h2 class="question">Question 1</h2>
          <div class="buttons" onclick="buttonsss(event)" id="btndiv">
-         <button class="btn options text-start">Option 1</button>
-         <button class="btn text-start  options">Option 2</button>
-         <button class="btn text-start  options">Option 3</button>
-         <button class="btn text-start  options">Option 4</button>
+         <button class="options text-start">Option 1</button>
+         <button class="text-start  options">Option 2</button>
+         <button class=" text-start  options">Option 3</button>
+         <button class=" text-start  options">Option 4</button>
         </div>
         <div class="next mt-5 text-center">
             <button class="next-btn text-start px-4">Next</button>
